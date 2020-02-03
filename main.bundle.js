@@ -60,24 +60,24 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* RouterModule */].forRoot([
                 {
-                    path: '~avk504/new-user',
+                    path: 'new-user',
                     component: __WEBPACK_IMPORTED_MODULE_6__components_new_user_component__["a" /* NewUserComponent */]
                 },
                 {
-                    path: '~avk504/existing-user/:id',
+                    path: 'existing-user/:id',
                     component: __WEBPACK_IMPORTED_MODULE_7__components_existing_user_component__["a" /* ExistingUserComponent */]
                 },
                 {
-                    path: '~avk504/login',
+                    path: 'login',
                     component: __WEBPACK_IMPORTED_MODULE_9__components_login_component__["a" /* LoginComponent */]
                 },
                 {
-                    path: '~avk504/',
+                    path: '',
                     redirectTo: 'home',
                     pathMatch: 'full'
                 },
                 {
-                    path: '~avk504/home',
+                    path: 'home',
                     component: __WEBPACK_IMPORTED_MODULE_5__components_menu_component__["a" /* MenuComponent */]
                 }
             ])
@@ -481,7 +481,7 @@ TestDetailComponent = __decorate([
 /***/ "../../../../../src/app/templates/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<header>\r\n  <img width=\"300\" src=\"assets/iggiLogo.png\" routerLink=\"/\">\r\n  <h1>Analysing Psychometrics in MOBAs (APM)</h1>\r\n</header>\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "\r\n<header>\r\n  <img width=\"300\" src=\"assets/iggiLogo.png\" routerLink=\"/\">\r\n  <h1>York Gaming and Aptitude Test (YGAT)</h1>\r\n</header>\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
