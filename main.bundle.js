@@ -171,29 +171,40 @@ var ExistingUserComponent = (function () {
         var cookies = __WEBPACK_IMPORTED_MODULE_3_cookie__["parse"](document.cookie);
         this.testStatusObject['survey'] = {
             'Name': 'Player Survey',
-            'Url': 'https://goo.gl/forms/DmxXZieKOpGzLWBx1',
+            'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSfENsUuNrfqhwj6sjqTfijvJWtKfzSCehckQxhRkyXRmuXe4Q/viewform',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?usp=pp_url&entry.159398806=',
             'subLinks': [
                 {
-                    'Url': 'https://forms.gle/XVhVrETpGGa9DeVm9',
-                    'Name': 'Dota 2'
+                    'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSf4He0wyaSPp2IQDAz_Emz_dMSba3-F0Bgvo6cXprUo4vRBOw/viewform',
+                    'Name': 'Dota 2',
+                    'hasQueryString': true,
+                    'queryString': '?usp=pp_url&entry.2068469188=',
                 },
                 {
-                    'Url': 'https://forms.gle/mpzNKGpE94qjeDus5',
-                    'Name': 'Starcraft 2'
+                    'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSdKx3V1-SBxceQJc5luBxNeRExNBFVeLadIgBORUH7oWMAyDA/viewform',
+                    'Name': 'Starcraft 2',
+                    'hasQueryString': true,
+                    'queryString': '?usp=pp_url&entry.159398806=',
                 },
                 {
-                    'Url': 'https://forms.gle/PsxmeHF3af1B2H3h9',
-                    'Name': 'League of Legends'
+                    'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSelJHCtXjvJAbpCdMVpxlptFl8ogJwerFFctycx1dvCBfG3LA/viewform',
+                    'Name': 'League of Legends',
+                    'hasQueryString': true,
+                    'queryString': '?usp=pp_url&entry.159398806=',
                 },
                 {
-                    'Url': 'https://forms.gle/i2ZaRuse5MnNDDrbA',
-                    'Name': 'Counter Strike: Global Offensive'
+                    'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSfY1j8mu9FU2Wht4VKZmGXsYvN0W8OLzCkDJ_YjApxFuCXwtA/viewform',
+                    'Name': 'Counter Strike: Global Offensive',
+                    'hasQueryString': true,
+                    'queryString': '?usp=pp_url&entry.159398806=',
                 },
                 {
                     'Url': 'https://docs.google.com/forms/d/e/1FAIpQLSd2eSGk5XlNvCJl6Wn5k_ot2um8y7myVz5h0QOmtrhG4-IMYA/viewform?usp=sf_link',
-                    'Name': 'Tekken 7'
+                    'Name': 'Tekken 7',
+                    'hasQueryString': true,
+                    'queryString': '?usp=pp_url&entry.159398806=',
                 }
             ],
             'description': 'An survey of some details about you such as games played, rank etc. Please fill these first.'
@@ -202,49 +213,55 @@ var ExistingUserComponent = (function () {
             'Name': 'Simple Reaction Times',
             'Url': 'placeholder',
             'Completed': false,
-            'IsTatool': false,
+            'queryString': '?ParticipantID=',
             'description': 'A short task to find how fast can you respond to a stimulus.'
         };
         this.testStatusObject['complexReaction'] = {
             'Name': 'Complex Reaction Times',
             'Url': 'placeholder',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'A short task to find how fast can you respond to a stimulus while making a judgement.'
         };
         this.testStatusObject['htmsModded'] = {
             'Name': 'HMT-S modded',
             'Url': 'https://york.qualtrics.com/jfe/form/SV_eeukSQ8cf30gKC9',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'A short task about finding rules in abstract patterns and completing in a logical way.'
         };
         this.testStatusObject['santaBarbara'] = {
             'Name': 'Santa Barbara Solids Test',
             'Url': 'https://york.qualtrics.com/jfe/form/SV_0859Wkyxk0cbmmN',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'A task about interpreting cross-sections of objects and assuming a different perspective.'
         };
         this.testStatusObject['matrixReasoning'] = {
             'Name': 'Matrix Reasoning',
             'Url': 'https://york.qualtrics.com/jfe/form/SV_eyA8wlXf5tl8s0R',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'A short task about finding rules in abstract patterns and completing in a logical ways.'
         };
         this.testStatusObject['figuralAnalogies'] = {
             'Name': 'Figural Analogies',
             'Url': 'https://york.qualtrics.com/jfe/form/SV_3P48apVJURUPwax',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'A task involving identifying a patter in shapes.'
         };
         this.testStatusObject['numberSeries'] = {
             'Name': 'Number Series',
             'Url': 'https://york.qualtrics.com/jfe/form/SV_7WfrzhGDeqWRO5v',
             'Completed': false,
-            'IsTatool': false,
+            'hasQueryString': true,
+            'queryString': '?ParticipantID=',
             'description': 'This task tries to see if you can identify patterns in a sequence of numbers.'
         };
         for (var testStatusKey in this.testStatusObject) {
@@ -451,7 +468,11 @@ var TestDetailComponent = (function () {
     TestDetailComponent.prototype.ngOnInit = function () {
     };
     TestDetailComponent.prototype.clickTest = function (testStatus) {
-        var finalUrl = testStatus.IsTatool ? testStatus.Url + '?extid=' + this.id : testStatus.Url;
+        var queryString = "";
+        if (testStatus.hasQueryString) {
+            queryString = testStatus.queryString + this.id;
+        }
+        var finalUrl = testStatus.Url + queryString;
         window.open(finalUrl, '_blank');
         testStatus.Completed = true;
         document.cookie = __WEBPACK_IMPORTED_MODULE_0_cookie__["serialize"](testStatus.Name, true);
@@ -516,7 +537,7 @@ module.exports = "<div *ngIf=\"displayWelcomeMessage\" class=\"new-user\">\r\n  
 /***/ "../../../../../src/app/templates/test-detail.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<li [ngClass]=\"{'completed': testStatus.Completed, 'uncompleted': !testStatus.Completed}\">\r\n  <p>\r\n\t  <span class=\"test-name\">{{testStatus.Name}}:</span>\r\n    <a (click)=\"clickTest(testStatus)\">here</a>\r\n  </p>\r\n  <p *ngIf=\"testStatus.description\" [innerText]=\"testStatus.description\"></p>\r\n  <div *ngIf=\"testStatus.Completed; then thenBlock else elseBlock\"></div>\r\n  <ng-template #thenBlock><p>You have already visited this test</p></ng-template>\r\n  <ng-template #elseBlock><p>This test has not been completed</p></ng-template>\r\n\t<div class=\"sublink\" *ngIf=\"testStatus.subLinks\">\r\n\t\tHere are individual game surveys, please fill out the surveys for any games that you play regularly and only games that you play regularly:\r\n\t\t<div *ngFor=\"let subLink of testStatus.subLinks\">\r\n\t\t\t<a target=\"_blank\" [innerText]=\"subLink.Name\" [attr.href]=\"subLink.Url\"></a>\r\n\t\t</div>\r\n\t</div>\r\n</li>\r\n"
+module.exports = "\r\n<li [ngClass]=\"{'completed': testStatus.Completed, 'uncompleted': !testStatus.Completed}\">\r\n  <p>\r\n\t  <span class=\"test-name\">{{testStatus.Name}}:</span>\r\n    <a (click)=\"clickTest(testStatus)\">here</a>\r\n  </p>\r\n  <p *ngIf=\"testStatus.description\" [innerText]=\"testStatus.description\"></p>\r\n  <div *ngIf=\"testStatus.Completed; then thenBlock else elseBlock\"></div>\r\n  <ng-template #thenBlock><p>You have already visited this test</p></ng-template>\r\n  <ng-template #elseBlock><p>This test has not been completed</p></ng-template>\r\n\t<div class=\"sublink\" *ngIf=\"testStatus.subLinks\">\r\n\t\tHere are individual game surveys, please fill out the surveys for any games that you play regularly and only games that you play regularly:\r\n\t\t<div *ngFor=\"let subLink of testStatus.subLinks\">\r\n\t\t\t<a (click)=\"clickTest(subLink)\">{{subLink.Name}}</a>\r\n\t\t</div>\r\n\t</div>\r\n</li>\r\n"
 
 /***/ }),
 
